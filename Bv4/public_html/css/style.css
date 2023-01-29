@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 31, 2022, 3:43:55 PM
+    Author     : Tijana
+*/
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+/*
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+
+/*GLOBALNI STIL*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #2C2D3C;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+}
+
+p{
+    line-height: 24px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*NAVIGATION start*/
+
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    background: #28A745;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 25%; /*opciono da lepse izgleda*/
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+/*
+mozemo iz inspect elementa da prekopiramo celu putanju kako ne bi doslo do greske.
+Dobro je sto mozemo direktno prvo u inspect elementu da proverimo da li smo nasli 
+dobru putanju i izvrsimo promene u njoj pa posle toga da je kopiramo i dodamo u css.
+*/
+.navbar-light .navbar-toggler {
+  border-color:#28A745;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2C2D3C;
+  border-bottom: 2px solid #2C2D3C;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #28A745;
+}
+
+/*MAIN STYLE*/
+
+.layout-section .layout-item .layout-item-icon span{
+    font-size: 3rem;
+}
+
+/*grid*/
+
+.grid-number{
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    font-weight: 700;
+}
+
+
+footer .copyright{
+    font-family: 'Roboto', sans-serif;
+}
