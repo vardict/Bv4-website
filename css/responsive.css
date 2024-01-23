@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 31, 2022, 3:44:05 PM
+    Author     : Tijana
+*/
+
+/*
+BRAKE POINTS FOR BOOTSTRAP
+
+
+> 0px XS - NO NAME
+
+> 576px SM - small devices
+
+> 768px MD - medium devices
+
+> 992px LG - large devices
+
+> 1200px XL - extra large devices
+*/
+
+
+/*PISANJE CUSTOM RESPONSIVE CODE*/
+
+@media(min-width:576px){
+
+}
+
+@media(min-witdh:768px){
+
+    /*navigation style*/
+
+    .navbar-light .navbar-nav .nav-link {
+        border-bottom: 2px solid transparent;
+        padding: 20px 14px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link:hover{
+        border-bottom: 2px solid #28A745;
+    }
+
+    .navbar-light .navbar-nav .nav-item{ /*ovo ne radi ne znam zasto*/
+        margin-left: 60px;
+    }
+
+}
+
+@media(min-width:992px){
+
+    /*navigation style*/
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 90px;
+    }
+}
+
+@media(min-width:1200px){
+
+    /*Navigation stlye*/
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 134px;
+    }
+}
